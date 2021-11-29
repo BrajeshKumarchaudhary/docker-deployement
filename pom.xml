@@ -11,7 +11,7 @@
 	<groupId>com.app</groupId>
 	<artifactId>app-docker-deployment-github-acion</artifactId>
 	<version>0.0.1</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>app-docker-deployment-github-acion</name>
 	<description>deploy Service with docker</description>
 	<properties>
@@ -42,6 +42,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>springboot-images-new</finalName>
 	</build>
 
 </project>
